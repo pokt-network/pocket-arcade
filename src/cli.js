@@ -22,7 +22,6 @@ program
     .action(async function(payload, publicKey, signature) {
         const isValid = await verifySignature(publicKey, payload, signature)
         console.log(`Signer: ${publicKey}, Payload: ${payload}, Signature: ${signature}, Result: ${isValid}`)
-        //console.log('clone command called');
     })
 program.version('0.0.1')
 program.parse(process.argv)

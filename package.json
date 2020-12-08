@@ -1,8 +1,11 @@
 {
-  "name": "pocket-arcade",
+  "name": "@pokt-network/pocket-arcade",
   "version": "0.0.1",
-  "description": "",
-  "main": "cli.js",
+  "engine": {
+    "node": ">=10.19.0 <=12.15.0"
+  },
+  "description": "Pocket Network CLI that uses the Pocket-JS library",
+  "main": "src/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +24,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "pocket-arcade": "./cli.js"
+    "pocket-arcade": "./src/cli.js"
   },
   "dependencies": {
     "@pokt-network/pocket-js": "^0.6.4-rc",
