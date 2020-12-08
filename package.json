@@ -1,0 +1,30 @@
+{
+  "name": "pocket-arcade",
+  "version": "0.0.1",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pocket Network",
+  "authors": [
+    {
+      "name": "Pabel Nunez Landestoy",
+      "email": "pabel@pokt.network",
+      "homepage": "https://github.com/pabelnl"
+    },
+    {
+      "name": "Luis C. de León",
+      "email": "luis@pokt.network",
+      "homepage": "https://github.com/luyzdeleon"
+    }
+  ],
+  "license": "MIT",
+  "bin": {
+    "pocket-arcade": "./cli.js"
+  },
+  "dependencies": {
+    "@pokt-network/pocket-js": "^0.6.4-rc",
+    "commander": "^6.2.0"
+  }
+}
